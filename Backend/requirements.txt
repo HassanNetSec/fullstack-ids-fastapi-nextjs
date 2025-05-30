@@ -4,7 +4,10 @@ sqlalchemy
 psycopg2-binary
 pydantic
 python-jose
+passlib[bcrypt]
 scapy
 sse-starlette
 asyncpg
 pytz
+email-validator
+python-multipart
