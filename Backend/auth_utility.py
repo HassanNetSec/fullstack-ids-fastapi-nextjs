@@ -6,8 +6,8 @@ import pytz
 
 
 # Retrieve values from environment variables
-SECRET_KEY = "31331j321jadj21uh313uad91313"
-ALGORITHM = "HS256"
+SECRET_KEY = "secretKey"
+ALGORITHM = "alg"
 ACCESS_TOKEN_EXPIRE_DAYS = 10 # Default to 10 days if not set
 
 # Schema models for request/response validation
