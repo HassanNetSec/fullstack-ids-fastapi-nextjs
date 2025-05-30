@@ -18,7 +18,7 @@ clients = set()
 async def notify_listener():
     try:
         # Establish PostgreSQL connection (replace with your actual database connection string)
-        conn = await asyncpg.connect("postgresql://postgres:pgadmin4@localhost:5432/Intrusion_Detection_System")
+        conn = await asyncpg.connect("postgresql://user:password@localhost:portNumber/dbname")
         await conn.add_listener("my_pcap_channelName", notify_callback)  # Listen to 'new_message' channel
 
         logger.info("Listening for PostgreSQL notifications on 'my_pcap_channelName' channel.")
