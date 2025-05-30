@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 # postgresql://user:password@localhost:portNumber/dbname
 # Database connection URL
-DATABASE_URL = "postgresql://postgres:pgadmin4@localhost:5432/Intrusion_Detection_System"
+DATABASE_URL = "postgresql://user:password@localhost:portNumber/dbname"
 
 # Create engine
 engine = create_engine(DATABASE_URL)
